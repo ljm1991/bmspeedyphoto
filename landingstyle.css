@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("landing.png");
+    background-size: cover;
+    background-repeat: norepeat;
+    background-position: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 100px auto;
+}
+
+.details {
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+p {
+    margin: 20px;
+}
+
+button {
+    background: none;
+    border: 1px solid whitesmoke;
+    padding: 20px 40px;
+    color: whitesmoke;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 1s ease-in-out;
+}
+
+button:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.fa {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 50px;
+    }
+}
